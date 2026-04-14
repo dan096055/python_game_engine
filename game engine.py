@@ -217,7 +217,7 @@ class Synth:
     SR = 44100 # Sample Rate (Standard CD Quality)
     NOTES = {}
     names = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B']
-    base = 55.0 # Base frequency for note A1
+    base = 55.0 # Base frequency for note A1 (55 hz in standard tuning)
     
     # Procedurally generate a dictionary of note frequencies for 7 octaves
     for o in range(1, 8):
